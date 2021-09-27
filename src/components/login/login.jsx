@@ -83,6 +83,7 @@ export function Login() {
             <a href="#">{labelMap.links.resendEmail}</a>
           </div>
         </form>
+<iframe src="https://funds.manulife.ca/en-us/mutual"></iframe>
       </div>
     </div>
   )
