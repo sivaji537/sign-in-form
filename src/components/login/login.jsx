@@ -54,7 +54,7 @@ export function Login() {
   return (
     <div className="backdrop">
       <div className="form-container">
-      <iframe src="https://funds.manulife.ca/en-us/mutual"></iframe>
+      <div dangerouslySetInnerHTML={{ __html: "<iframe src='https://funds.manulife.ca/en-us/mutual' />"}} />
         <form id="form-login">
           <h1>{labelMap.headers.signIn}</h1>
           <div className="form-field">
